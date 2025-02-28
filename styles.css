@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    text-align: center;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    color: white;
+    padding: 3rem 1rem;
+    border-bottom: 5px solid #004494;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Secciones */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #0073e6;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Lista de enlaces */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 12px 0;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    width: 85%;
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button i {
+    font-size: 22px;
+}
+
+.contact-button:hover {
+    transform: scale(1.08);
+}
+
+/* Estilos específicos para cada botón */
+.contact-button[href*="github"] {
+    background-color: #171515;
+}
+
+.contact-button[href*="github"]:hover {
+    background-color: #2d2d2d;
+}
+
+.contact-button[href*="linkedin"] {
+    background-color: #0077b5;
+}
+
+.contact-button[href*="linkedin"]:hover {
+    background-color: #005fa3;
+}
+
+.contact-button[href*="mailto"] {
+    background-color: #d44638;
+}
+
+.contact-button[href*="mailto"]:hover {
+    background-color: #b23127;
+}
+
+.contact-button[href*="wa.me"] {
+    background-color: #25d366;
+}
+
+.contact-button[href*="wa.me"]:hover {
+    background-color: #1ebf57;
+}
+
+/* Botón de descarga de CV */
+.cv-button {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s ease-in-out;
+    margin-top: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cv-button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+}
